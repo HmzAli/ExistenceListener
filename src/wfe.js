@@ -1,9 +1,9 @@
 /**
  * wfe.js
- * version : 1.0.0
+ * version : 0.0.1
  * author : Hamza Ali <hamza.ishak.ali@gmail.com>
- * 
- * Notifies when an element is added to the DOM
+ * description : Notifies when an element is added to the DOM
+ * license : MIT
  */
 (function () {
     function Wfe(selector, handler, config) {
