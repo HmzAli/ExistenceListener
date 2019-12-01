@@ -11,11 +11,6 @@
         this._config = !!config ? config : {
             rootElement: document.querySelector('html, body')
         };
-        Object.defineProperty(this, 'element', {
-            get: function () {
-
-            }
-        });
 
         if (!!this._getElement(selector)) {
             handler.call(null, this._getElement(selector));
